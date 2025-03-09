@@ -1,0 +1,17 @@
+.home {
+  padding: 0 2%; /* Tambahkan padding di kiri dan kanan */
+  box-sizing: border-box; /* Pastikan padding tidak memengaruhi lebar elemen */
+}
+
+.box-content {
+  display: flex; /* Mengatur layout menjadi horizontal */
+  align-items: flex-start; /* Memastikan konten berada di atas */
+  gap: 20px; /* Jarak antar elemen (kategori dan produk) */
+  margin-top: 20px; /* Jarak dari elemen di atasnya */
+}
+
+.content-container {
+  padding: 10px; /* Jarak dalam elemen */
+  width: 20%; /* Lebar bagian kategori */
+  background-color: #ffffff; /* Tambahkan warna latar */
+}
